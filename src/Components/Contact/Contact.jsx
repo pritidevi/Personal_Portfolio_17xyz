@@ -30,7 +30,7 @@ export default function Contact() {
                     />
 
                     <div className='absolute top-0 right-0 bottom-0 w-[75%] sm:w-[75%]  flex flex-col justify-center p-6 '>
-                        <h4 className='text-[#7c6e66] text-[10px]'>Let's work together</h4>
+                        <h4 className='text-[#7c6e66] text-[12px]'>Let's work together</h4>
                         <h1 className='text-black font-[500] text-[10px] sm:text-[17px]'>Have a project in mind? I'd love to hear from you.</h1>
                         <p className='text-[#7c6e66]  text-[8px] md:text-[13px]'>
                             Open to frontend roles, internships, and collaborative projects. Drop a message and I'll get back to you soon.
