@@ -30,9 +30,9 @@ export default function Contact() {
                     />
 
                     <div className='absolute top-0 right-0 bottom-0 w-[67%] md:w-[70%]  flex flex-col justify-center p-6 '>
-                        <h4 className='text-[#7c6e66] text-[14px]'>Let's work together</h4>
-                        <h1 className='text-black font-[500] text-[20px] sm:text-[17px]'>Have a project in mind? I'd love to hear from you.</h1>
-                        <p className='text-[#7c6e66]  text-[11px] md:text-[13px]'>
+                        <h4 className='text-[#7c6e66] text-[10px]'>Let's work together</h4>
+                        <h1 className='text-black font-[500] text-[10px] sm:text-[17px]'>Have a project in mind? I'd love to hear from you.</h1>
+                        <p className='text-[#7c6e66]  text-[8px] md:text-[13px]'>
                             Open to frontend roles, internships, and collaborative projects. Drop a message and I'll get back to you soon.
                         </p>
 
@@ -41,24 +41,24 @@ export default function Contact() {
                             <div className={styles.common}>
                                 <Mail className='w-[15px] h-[15px] mt-0.5 text-gray-700' />
                                 <div className='flex flex-col justify-center'>
-                                    <span className='font-semibold text-[9px] md:text-[13px]'>Email</span>
-                                    <span className=' text-[8px] md:text-[13px] text-gray-600'>priti827800@gmail.com</span>
+                                    <span className='font-semibold text-[7px] md:text-[13px]'>Email</span>
+                                    <span className=' text-[7px] md:text-[13px] text-gray-600'>priti827800@gmail.com</span>
                                 </div>
                             </div>
 
                             <div className={styles.common}>
                                 <Phone className='w-[15px] h-[15px] mt-0.5 text-gray-700' />
                                 <div className='flex flex-col'>
-                                    <span className='font-semibold text-[9px] md:text-[13px]'>Phone</span>
-                                    <span className='text-[8px] md:text-[13px] text-gray-600'>+91 8278003506</span>
+                                    <span className='font-semibold text-[7px] md:text-[13px]'>Phone</span>
+                                    <span className='text-[7px] md:text-[13px] text-gray-600'>+91 8278003506</span>
                                 </div>
                             </div>
 
                             <div className={styles.common}>
                                 <MapPin className='w-[15px] h-[15px] mt-0.5 text-gray-700' />
                                 <div className='flex flex-col'>
-                                    <span className='font-semibold text-[9px] md:text-[13px]'>Location</span>
-                                    <span className='text-[8px] md:text-[13px] text-gray-600'>Banwasa, Haryana</span>
+                                    <span className='font-semibold text-[7px] md:text-[13px]'>Location</span>
+                                    <span className='text-[7px] md:text-[13px] text-gray-600'>Banwasa, Haryana</span>
                                 </div>
                             </div>
 
