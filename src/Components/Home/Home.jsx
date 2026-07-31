@@ -63,7 +63,7 @@ export default function Home() {
             <p className='text-primary pt-1.5 max-w-[420px] mb-6 ' >
               I'm a frontend developer and MCA student passionate about crafting responsive, user-friendly web experiences that look great and work even better — built with React.js and Tailwind CSS.
             </p>
-            <button className='btn hover:transition-transform duration-300 hover:-translate-y-1'  onClick={() => handleTabClick('work')}>
+            <button className='btn hover:transition-transform duration-300 hover:-translate-y-1 cursor-pointer'  onClick={() => handleTabClick('work')}>
               View my work →
             </button>
             <div className='text-[17px] mt-[20px] text-[#d19875] font-medium font-script' >

@@ -100,7 +100,7 @@ export default function Contact() {
                         <div>
                             <button
                                 type="submit"
-                                className='bg-[#C86D44] hover:bg-[#b05d38] text-white font-medium px-8 py-3 rounded-full transition-all duration-300 shadow-md'
+                                className='bg-[#C86D44] hover:bg-[#b05d38] text-white font-medium px-8 py-3 rounded-full transition-all duration-300 shadow-md cursor-pointer'
                                 onClick={handleClick}
                             >
                                 Send Message

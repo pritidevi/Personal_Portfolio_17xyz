@@ -39,7 +39,7 @@ export default function Services() {
                         <p className='text-primary'>
                             {item.summary}
                         </p>
-                        <p className='text-orange-500 text-[12px] cursor-pointer'>Learn more →</p>
+                        <p className='text-orange-500 text-[12px] '>Learn more →</p>
                     </div>
                     
                 ))}</div>
