@@ -9,8 +9,10 @@ export default function Athnura() {
            Frontend Developer Intern with 1 month of hands-on experience specializing in building responsive and user-friendly web interfaces using React, JavaScript, HTML, and CSS. Adept at translating UI/UX designs into clean, maintainable code and optimizing web performance for seamless user experiences.
         </p>
         <button className='bg-[#556e41] flex justify-center w-[138px] h-auto p-[7px] my-2 items-center  m-auto rounded-3xl text-white hover:bg-[#435037] cursor-pointer'onClick={()=>window.open('https://www.athenura.in')}>
-VISIT ATHNURA
+VISIT ATHENURA
         </button>
+        
+       
       </div>
     </>
   )
