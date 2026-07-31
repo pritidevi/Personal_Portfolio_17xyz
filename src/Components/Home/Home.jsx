@@ -7,7 +7,7 @@ import Work from '../Work/Work'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
 import Athnura from '../Athnura/Athnura'
-
+import homeimg from '../../../public/images/home.jpeg'
 export default function Home() {
     const tabs = [
         { name: 'HOME', id: 'home' },
@@ -43,9 +43,9 @@ export default function Home() {
         scrollToSection={scrollToSection}
       />
       
-      <div  id="home">
-        <img src='public/images/home.jpeg' className={`${styles.background} md:bg-none`}>
-        <div className={styles.hero}>
+      <div  id="home" className='relative w-full bg-amber-400 md:bg-transparent'>
+        <img src= {homeimg} className={`w-full h-[400px] object-cover  md:block`} alt='home back'/>
+        <div className={`${styles.hero} absolute inset-0`}>
           <div className='text-[12px] space-x-[.12em] mb-[14px]'>
             <h3>
               Hi, I'm Priti
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        </img>
+        {/* </img> */}
       </div>
       
       <Aboutus/>
