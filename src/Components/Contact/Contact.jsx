@@ -19,7 +19,7 @@ export default function Contact() {
 
     return (
         <>
-            <div id='contact' className='flex flex-wrap md:flex-nowrap p-6 m-auto md:mx-[76px] my-[19px] gap-6 mx-[12px]'>
+            <div id='contact' className='flex flex-wrap md:flex-nowrap p-[12px] m-auto my-[19px] gap-6 mx-[12px]'>
 
               
                 <div className='relative flex-1 min-w-[280px] rounded-2xl overflow-hidden'>
@@ -29,7 +29,7 @@ export default function Contact() {
                         alt='home back'
                     />
 
-                    <div className='absolute top-0 right-0 bottom-0 w-[67%] md:w-[70%]  flex flex-col justify-center p-6 '>
+                    <div className='absolute top-0 right-0 bottom-0 w-[75%] sm:w-[75%]  flex flex-col justify-center p-6 '>
                         <h4 className='text-[#7c6e66] text-[10px]'>Let's work together</h4>
                         <h1 className='text-black font-[500] text-[10px] sm:text-[17px]'>Have a project in mind? I'd love to hear from you.</h1>
                         <p className='text-[#7c6e66]  text-[8px] md:text-[13px]'>
