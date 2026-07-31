@@ -1,0 +1,22 @@
+.aboutimg{
+    background: url('src/assets/images/aboutimg.jpeg');
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    max-width: 100%;
+    height: 400px;
+    background-size: cover;
+
+}
+@media (max-width: 768px) {
+  .about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+.about{
+   width:350px;
+}

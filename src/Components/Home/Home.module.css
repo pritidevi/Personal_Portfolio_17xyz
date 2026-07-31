@@ -1,0 +1,31 @@
+.img{
+    
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+ border-top-left-radius: 50% 100%;
+ border-bottom-left-radius: 8% 20%;
+}
+.hero{
+    background: var(--hero-bg);
+  padding: 56px 0 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 35px;
+  width: 393px;
+}
+.background{
+  background: url('src/assets/images/heroimg.jpeg')no-repeat ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Image ko poori screen par kheench kar fit kar dega */
+    background-position: center;
+
+}
+@media (max-width: 768px) {
+  .background {
+    background: #e7814312 !important;
+    height: auto !important;
+  }
+}

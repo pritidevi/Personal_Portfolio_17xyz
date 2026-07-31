@@ -1,0 +1,45 @@
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.tag {
+  font-size: 9px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.navsection {
+  display: flex;
+  column-gap: 14px;
+  font-size: 10px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.navcta {
+  font-size: 12px;
+
+  display: flex;
+  color: #fff;
+  padding: 11px 22px;
+  border-radius: 24px;
+
+  height: 40px;
+  align-items: center;
+  background-color: chocolate;
+  /* justify-content: ; */
+}
+
+.navcta:hover {
+  background-color: rgb(177, 86, 21);
+
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
