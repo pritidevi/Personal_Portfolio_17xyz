@@ -3,7 +3,7 @@ import React from 'react'
 export default function Athnura() {
   return (
     <>
-      <div className='flex  flex-col justify-center text-center bg-[#FBF9F5] p-[12px]'>
+      <div className='flex  flex-col justify-center text-center bg-[#FBF9F5] w-full py-[12px] px-3'>
         <h1 className='text-[32px] text-black'>A FEW WORDS ON MY ROLE AT ATHENURA</h1>
         <p className='text-[#7c6e66]'>
            Frontend Developer Intern with 1 month of hands-on experience specializing in building responsive and user-friendly web interfaces using React, JavaScript, HTML, and CSS. Adept at translating UI/UX designs into clean, maintainable code and optimizing web performance for seamless user experiences.

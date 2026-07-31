@@ -1,16 +1,6 @@
-.image{
-     background: url('public/images/contact.jpeg');
-  background-repeat: no-repeat;
-    border-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    /* width: 501px; */
-    height: 352px;
-    background-size: cover;
-    padding: 12px;
-    min-width: 484px;
-}
-.common{
+
+
+.common {
     display: flex;
     align-items: center;
     column-gap: 8px;
