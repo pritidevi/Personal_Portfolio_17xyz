@@ -17,7 +17,8 @@
 }
 .background{
   background: url('public/images/home.jpeg')no-repeat ;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
