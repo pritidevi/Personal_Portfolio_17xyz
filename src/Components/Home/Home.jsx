@@ -43,7 +43,8 @@ export default function Home() {
         scrollToSection={scrollToSection}
       />
       
-      <div className={`${styles.background} md:bg-none`} id="home">
+      <div  id="home">
+        <img src='public/images/home.jpeg' className={`${styles.background} md:bg-none`}>
         <div className={styles.hero}>
           <div className='text-[12px] space-x-[.12em] mb-[14px]'>
             <h3>
@@ -64,6 +65,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </img>
       </div>
       
       <Aboutus/>

@@ -16,7 +16,7 @@
   width: 393px;
 }
 .background{
-  background: url('public/images/home.jpeg')no-repeat ;
+  /* background: url('public/images/home.jpeg')no-repeat ; */
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
