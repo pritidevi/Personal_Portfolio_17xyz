@@ -19,7 +19,7 @@ export default function Home() {
 
     const [activeTab, setActiveTab] = useState('home');
 
-    // Scroll logic function jo Home mein define hai
+   
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      {/* scrollToSection ko bhi Navbar mein prop ke taur par pass kiya hai */}
+     
       <Navbar 
         tabs={tabs} 
         activeTab={activeTab} 

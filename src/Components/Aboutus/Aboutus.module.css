@@ -1,5 +1,5 @@
 .aboutimg{
-    background: url('src/assets/images/aboutimg.jpeg');
+    background: url('public/images/about.jpeg');
     background-repeat: no-repeat;
     border-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -20,3 +20,4 @@
 .about{
    width:350px;
 }
+

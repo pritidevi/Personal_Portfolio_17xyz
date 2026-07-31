@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Mail, Phone, MapPin } from 'lucide-react';
 import styles from './Contact.module.css'
 import { useSearchParams } from 'react-router-dom';
+
 export default function Contact() {
     const[name,setname]=useState('')
     const[email,setemail]=useState('')

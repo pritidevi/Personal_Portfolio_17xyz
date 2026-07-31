@@ -16,10 +16,10 @@
   width: 393px;
 }
 .background{
-  background: url('src/assets/images/heroimg.jpeg')no-repeat ;
+  background: url('public/images/home.jpeg')no-repeat ;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 100% 100%; /* Image ko poori screen par kheench kar fit kar dega */
+    background-size: 100% 100%;
     background-position: center;
 
 }

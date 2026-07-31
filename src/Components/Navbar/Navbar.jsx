@@ -2,11 +2,9 @@ import React, { useState } from 'react'
 import styles from './Navbar.module.css'
 import { Menu, X } from 'lucide-react'
 
-// Home se handleTabClick aur scrollToSection props receive kiye hain
 export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSection }) {
     const [menuOpen, setMenuOpen] = useState(false);
 
-    // Mobile menu ke liye click handler taaki click hote hi menu band ho jaye
     const onMobileTabClick = (id) => {
         handleTabClick(id);
         setMenuOpen(false);
@@ -16,7 +14,7 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
         <nav className='sticky top-0 z-50 bg-white shadow-md'>
             <div className='flex justify-between items-center w-full px-4 py-3 h-[70px]'>
 
-                {/* Brand / Logo Section */}
+                
                 <div className={styles.brand}>
                     <h1 className={`${styles.name} font-bold text-lg text-gray-800`}>
                         Priti Devi
@@ -24,7 +22,7 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
                     <h4 className={`${styles.tag} text-xs text-gray-500`}>Frontend Developer</h4>
                 </div>
 
-                {/* Desktop Nav - only on large screens */}
+               
                 <div className='hidden lg:flex items-center gap-x-6'>
                     {tabs.map((tab, index) => (
                         <button
@@ -39,7 +37,6 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
                     ))}
                 </div>
 
-                {/* CTA Button - Desktop */}
                 <button 
                     onClick={() => handleTabClick('contact')}
                     className='hidden lg:block bg-[#527138] text-white px-6 py-2 rounded-full text-sm hover:bg-[#3d5629] transition-colors whitespace-nowrap cursor-pointer'
@@ -47,7 +44,7 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
                     LET'S WORK TOGETHER
                 </button>
 
-                {/* Hamburger Icon - visible below lg */}
+              
                 <button
                     className='lg:hidden text-gray-800 cursor-pointer'
                     onClick={() => setMenuOpen(!menuOpen)}
@@ -57,7 +54,6 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
                 </button>
             </div>
 
-            {/* Mobile Dropdown Menu */}
             {menuOpen && (
                 <div className='lg:hidden flex flex-col items-center gap-y-4 bg-[#e7814312] backdrop-blur-sm py-6 shadow-md'>
                     {tabs.map((tab, index) => (
@@ -72,7 +68,7 @@ export default function Navbar({ tabs, activeTab, handleTabClick, scrollToSectio
                         </button>
                     ))}
                     
-                    {/* LET'S WORK TOGETHER button for mobile */}
+                   
                     <button
                         onClick={() => onMobileTabClick('contact')}
                         className='mt-2 bg-[#527138] text-white px-6 py-2 rounded-full text-sm hover:bg-[#3d5629] transition-colors cursor-pointer'

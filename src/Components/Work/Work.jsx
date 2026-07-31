@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Work.module.css'
-import img1 from '../../assets/images/funding.jpeg'
-import img2 from '../../assets/images/music.jpeg'
-import img3 from '../../assets/images/todo.jpeg'
+import img1 from '../../../public/images/funding.jpeg'
+import img2 from '../../../public/images/music.jpeg'
+import img3 from '../../../public/images/todo.jpeg'
 export default function Work() {
     const projects = [{
         name: 'Music Web Application',
@@ -51,16 +51,16 @@ export default function Work() {
                     {projects.map((item, index) => (
                         <div key={index} className='flex flex-col w-[276px] m-[12px] p-4 rounded-2xl  hover:shadow-2xl shadow-gray-400 text-primary bg-white'>
 
-                            {/* Project Image */}
+                        
                             <div className="w-full h-[150px] mb-3">
                                 <img src={item.img} alt={item.name} className="w-full h-full object-cover rounded-lg" />
                             </div>
 
-                            {/* Project Name & Summary */}
+                            
                             <h2 className="font-bold text-lg mb-1">{item.name}</h2>
                             <p className="text-sm mb-4">{item.summary}</p>
 
-                            {/* Skills List (Inner Map) */}
+                           
                             <div className='flex flex-wrap gap-1.5 mt-auto'>
                                 {item.skills.map((skill, i) => (
                                     <span key={i} className='bg-gray-700 text-white text-xs px-2 py-1 rounded'>
@@ -76,7 +76,7 @@ export default function Work() {
     {alldata.map((item, index) => (
         <div key={index} className='flex items-center gap-x-6'>
             
-            {/* Count and Name Box */}
+          
             <div className='flex flex-col items-center justify-center'>
                 <h2 className='text-xl font-bold leading-tight'>
                     {item.count}
@@ -86,7 +86,6 @@ export default function Work() {
                 </p>
             </div>
 
-            {/* Divider Line */}
             {index < alldata.length - 1 && (
                 <div className='hidden md:block h-8 w-[1px] bg-white/30 ml-6'></div>
             )}

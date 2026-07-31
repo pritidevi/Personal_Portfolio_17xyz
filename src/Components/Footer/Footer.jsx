@@ -18,10 +18,7 @@ export default function Footer() {
                 </div>
 
 
-                {/* <div className='flex flex-wrap md:justify-center'>
-                    <p className='text-[11px] '>Design beautiful webpages that helps in brands grow.</p>
-                </div> */}
-
+              
                 <div className='grid justify-start '> <p className='text-[11px] text-[#B3ADA5]'>
                     Follow Along
                 </p>

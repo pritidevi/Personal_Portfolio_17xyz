@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './Aboutus.module.css'
-//  import src/assets/images/aboutimg.jpeg
+
 export default function Aboutus() {
     return (
         <>
             <div id='about' className='flex mt-[35px] mb-[35px]  gap-x-[7%] flex-wrap w-[98%] overflow-x-hidden px-6 m-auto
              '>
                 <div className={`w-full md:flex-1 rounded-2xl overflow-hidden`}>
-                    <img src='src/assets/images/aboutimg.jpeg' className="w-[98%] h-[400px] object-cover rounded-2xl m-auto"/>
+                    <div  className={`${styles.aboutimg} w-[98%] h-[400px] object-cover rounded-2xl m-auto`}></div>
                 </div>
 
                 <div className={styles.about}>
